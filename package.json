@@ -1,0 +1,18 @@
+{
+  "name": "duro-oceanic-next",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A flavor of Oceanic Next by Duro customized for ES6 and React",
+  "keywords": [
+    "syntax",
+    "theme",
+    "es6",
+    "jsx",
+    "babel"
+  ],
+  "repository": "https://github.com/duro/duro-oceanic-next",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

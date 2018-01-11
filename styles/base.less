@@ -1,6 +1,11 @@
 // @import "../../oceanic-next/styles/base.less";
 @import "./syntax-variables.less";
 
+atom-workspace {
+  background-color: @very-dark-gray;
+  color: @light-gray;
+}
+
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -53,6 +58,19 @@ atom-text-editor.is-focused .selection .region {
 atom-text-editor.is-focused .line-number.cursor-line-no-selection,
 atom-text-editor.is-focused .line.cursor-line {
   background-color: fade(@light-gray, 8%);
+}
+
+.nuclide-ui-table-row-alternate {
+  background-color: @gray;
+}
+
+.nuclide-ui-table-row-selectable:not(.nuclide-ui-table-row-using-keyboard-nav):hover {
+  background-color: lighten(@very-dark-gray, 2%);
+  color: @light-gray;
+}
+
+.nuclide-ui-table-row-alternate.nuclide-ui-table-row-selectable:not(.nuclide-ui-table-row-using-keyboard-nav):hover {
+  background-color: lighten(@gray, 2%)
 }
 
 .syntax--comment,
